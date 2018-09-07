@@ -1,0 +1,72 @@
+body {
+    background: #f9f4db;
+    color: #4d4d4d;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+/* base ui */
+.btn {
+    border-radius: 5px;
+}
+.btn:hover {
+    box-shadow: 1px 1px 2px 1px #ccc;
+}
+.recipe-button {
+    background-color: #ff9933 !important;
+    color: white !important;
+}
+.recipe-button:hover {
+    background-color: #ee7722 !important;
+    color: white !important;
+}
+
+/* input field */
+.input-row {
+    margin-left: 50px;
+}
+.recipe-url-input {
+    width: 270px;
+}
+
+button.recipe-scraping-button {
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+/* master buttons */
+.master-buttons-row {
+    margin: 10px 50px;
+    margin-bottom: 50px;
+}
+.samiauto-button {
+    font-weight: bold;
+}
+.samiauto-button:hover {
+    background-color: whitesmoke;
+}
+
+.all-destroy-button {
+    background-color: crimson;
+    color: white;
+}
+.all-destroy-button:hover {
+    background-color: rgb(191, 6, 6);
+}
+
+/* destroy button in TodoListItem */
+.destroy {
+    margin: 0 10px;
+}
+
+/* page title */
+#cookdo-title {
+    text-align: center;
+}
+.cookdo-title-logo {
+    width: 15%;
+    height: auto;
+}
